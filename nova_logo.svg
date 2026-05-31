@@ -1,0 +1,12 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d7dae"/>
+      <stop offset="100%" stop-color="#c3e5f2"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="6" dy="6" stdDeviation="6" flood-color="#00000055"/>
+    </filter>
+  </defs>
+  <text x="50" y="500" font-family="Arial" font-size="480" fill="url(#grad)" filter="url(#shadow)">Nova</text>
+</svg>
